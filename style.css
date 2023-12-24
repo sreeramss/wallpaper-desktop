@@ -1,0 +1,59 @@
+.leafcolor{
+  width: 100%;
+  height: 100vh;
+  font-family: Copperplate, Papyrus;
+  background: linear-gradient(
+  to right,
+  yellow 0%,
+  yellow 49.4%,
+  black 50%,
+  black 100%
+)
+ 
+}
+*{
+  padding: 0;
+  margin: 0;
+  animation: fadeIn 2s ease-in-out;
+}
+.responsive {
+  width: 100%;
+  height: 200px;
+  scale: 76%;
+}
+
+.heading{
+  text-align:center;
+}
+
+
+
+.image-scale{
+  transition: transform 0.3s ease-in-out;
+}
+.button-align{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.innertext{
+  font-family: Copperplate, Papyrus;
+  color: rgb(176, 174, 174);
+  
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 5;
+  }
+}
+
+.animated {
+  animation: fadeIn 2s ease-in-out;
+}
+
